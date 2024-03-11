@@ -1,5 +1,4 @@
 import { calender, film, heart, trending_up } from "../../assets"
-import { Params } from "react-router-dom"
 import { NavLink } from "react-router-dom"
 import { DashBoardItem } from "../CommonComponents/DashboardItem/DashBoardItem"
 

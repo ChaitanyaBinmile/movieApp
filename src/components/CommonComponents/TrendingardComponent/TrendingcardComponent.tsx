@@ -1,12 +1,11 @@
-import { useContext } from "react";
-import { FavouritesArray, LikeContext} from "../FavouriteArray/FavouriteArray";
-
-
+import { FavouritesArray} from "../FavouriteArray/FavouriteArray";
+import { useAppSelector } from "../../../app/hooks";
 
 
 export const TrendingcardComponent:React.FC = () => {
 
-    const {favArr} = useContext(LikeContext)
+  
+    const favArr = useAppSelector((state)=> state.FavArray.favArr)
 
     
   
