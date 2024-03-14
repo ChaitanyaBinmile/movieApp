@@ -20,8 +20,8 @@ const LoginPageComponent = () => {
     signIn();
   }, []);
   return (
-    <div className="min-h-screen w-full flex items-center justify-center bg-gray-950 text-white">
-      <div className="min-w-[370px] bg-[#21201E] shadow-buttonShadow rounded-lg p-8 text-center w-4/5 sm:w-3/5 md:w-2/5 lg:w-1/4">
+    <div className="min-h-screen w-full flex items-center justify-center bg-gray-100 text-black">
+      <div className="min-w-[370px] bg-[#dbd7cf] shadow-buttonShadow rounded-lg p-8 text-center w-4/5 sm:w-3/5 md:w-2/5 lg:w-1/4">
         <h2 className="text-3xl font-bold mb-8">Sign In</h2>
         <form >
           <div className="mb-4">
