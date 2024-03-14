@@ -13,6 +13,8 @@ export default {
       },
       boxShadow:{
         'drawerShadow':  '2px 0px 90px 0px rgba(97, 0, 194, 0.40);',
+        'buttonShadow':  '2px 0px 150px 0px rgba(90, 0, 194, 0.40);',
+
       },
     },
   },

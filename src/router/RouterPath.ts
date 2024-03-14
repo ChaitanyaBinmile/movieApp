@@ -2,6 +2,7 @@
 import { HomepageComponent } from "../pages/HomepageComponent/HomepageComponent";
 import { DetailPageComponent } from "../pages/DetailPageComponent/DetailPageComponent";
 import { RouteType } from "../type";
+import LoginPageComponent from "../pages/LoginPageComponent/LoginPageComponent";
 
 export const RouterPath:RouteType={
     Home:{
@@ -19,6 +20,10 @@ export const RouterPath:RouteType={
     Calender:{
         path: "/Calender",
         Component: DetailPageComponent
+    },
+    Login:{
+        path: "/Login",
+        Component: LoginPageComponent
     }
 
 }
